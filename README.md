@@ -1,21 +1,10 @@
-# TanStack Start + shadcn/ui
+# TanStack Start + Tanstack Query + shadcn/ui
 
-This is a template for a new TanStack Start project with React, TypeScript, and shadcn/ui.
+This is a template for a new TanStack Start project with Tanstack Query and shadcn/ui.
 
-## Adding components
+## Removing the Example
 
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+If you would like to start from scratch with just the basic configuration. Remove these files:
+- src/api/exampleApi.ts
+- src/types/exampleType.ts
+- src/routes/example.tsx
